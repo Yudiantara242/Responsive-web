@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Info Makanan</title>
+    <script type="text/javascript" src="jquery.js"></script>
+    <link rel="stylesheet" type="text/css" href="C:\Users\ASUS\Downloads\Untitled-3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="Sejarah Nasi Goreng" />
+    <meta name="author" content="Visit Sejarah" />
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <div class="judul">
+                <h2>InfoMakanan.com</h2>
+            </div>
+
+        </header>
+        <nav class="menu">
+            <ul>
+                <li> <a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <aside class="sidebar">
+            <div class="widget">
+                <h2>Artikel Terkait</h2>
+                <ul class="menusidebar">
+                    <li><a href="">Sejarah Soto</a></li>
+                    <li><a href="">Sejarah Indomie</a></li>
+                    <li><a href="">Sejarah Bakwan</a></li>
+                    <li><a href="">Sejarah Siomay</a></li>
+                </ul>
+            </div>
+            <div class="widget">
+                <h2>Artikel Lainnya</h2>
+                <ul class="menusidebar">
+                    <li><a href="">Resep Tumis Ayam Kecap</a></li>
+                    <li><a href="">Resep Ayam Goreng Lengkuas</a></li>
+                    <li><a href="">Makanan Tradisional</a></li>
+                    <li><a href="">Makanan Hari Raya</a></li>
+                </ul>
+            </div>
+        </aside>
+        <div class="blog">
+            <div class="conteudo">
+                <img
+                    src="https://selerasa.com/wp-content/uploads/2015/05/images_nasi_nasi_goreng_nasi-goreng-biasa-nan-pedas.jpg">
+                <h1> Sejarah Nasi Goreng</h1>
+                <hr>
+                <div class="post-info">
+                    Di Posting oleh <b>Aku</b>
+                </div>
+                <p> Nasi adalah sebuah bagian penting dari masakan tradisional Tionghoa,
+                    menurut catatan sejarah sudah mulai ada sejak 4000 SM. Nasi goreng
+                    kemudian tersebar ke Asia Tenggara dibawa oleh perantau-perantau Tionghoa yang menetap di sana dan
+                    menciptakan
+                    nasi goreng khas lokal yang didasarkan atas perbedaan bumbu-bumbu dan cara menggoreng. Nasi goreng
+                    sebenarnya muncul dari beberapa
+                    sifat dalam kebudayaan Tionghoa, yang tidak suka mencicipi makanan dingin dan juga membuang sisa
+                    makanan beberapa hari sebelumnya.
+                    Makanya, nasi yang dingin itu kemudian digoreng untuk dihidangkan kembali di meja makan.</p>
+
+                <a href="#" class="continue-lendo">Selengkapnya</a>
+            </div>
+            <div class="conteudo">
+                <form>
+                    <table>
+                        <tr>
+                            <td>Tulis komentar:</td>
+                            <td><textarea cols=”30″ rows=”5″ id="kmt"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td colspan="5" align="right">  <button type="button" id="btn">Post</button></td>
+                        </tr>
+                    </table>
+                </form>
+                <script type="text/javascript">
+                $(document).ready(function(){
+                    $('#btn').hide();
+                    $('#kmt').keyup(function(){
+                        $('#btn').slideDown('slow');
+                    })
+                });
+                
+                </script>
+
+                    <div class="footer" align="center">
+                        <a href="yudiantara">Copyright &#169; Yudiantara</a>
+                    </div>
+</body>
+
+</html>

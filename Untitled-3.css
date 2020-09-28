@@ -1,0 +1,212 @@
+body {
+    background: url("tumblr_oiwyu3PV5S1tf8vylo1_1280.png") center;
+    width: auto;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+hr {
+	border:0;
+	background-color: dimgrey;
+    height:1px;
+}
+header {
+    background: url("piqsels.com-id-jjjcv.jpg") center;
+    color: black;
+    padding: 20px;
+    width: 100%;
+    border:1px solid navy;
+}
+header .judul {
+    margin-bottom: 7px;
+    font-size: 17pt;
+}
+header .deskripsi {
+    font-size: 11pt;
+}
+.wrap {
+    width: 950px;
+    margin: 25px auto;
+}
+nav .menu ul {
+    list-style-type: none;
+    margin: 0 ;
+    padding: 0;
+    overflow: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav.menu ul li {
+    margin: 0;
+    float: left;
+}
+nav.menu ul a {
+    padding: 25px;
+    display: block;
+    font-weight: 600;
+    font-size: 16px;
+    color:ghostwhite;
+    background-color: midnightblue;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid white;
+}
+nav.menu ul a:hover {
+    background-color: navy;
+}
+.sidebar {
+    float: right;
+    width: 250px;
+    margin-top: 95px;
+    }
+.sidebar .widget {
+    padding: 25px;
+    margin: 0 0 25px;
+    background:ghostwhite;
+    border-bottom: 2px solid white;
+    transition: all 0.5s ease;
+}
+.sidebar .widget:hover {
+    border-bottom: 4px solid navy;
+}
+.sidebar .widget h2 {
+    padding: 0;
+    margin: 0 0 15px;
+    color:navy;
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.sidebar .widget p {
+    font-size: 14px;
+}
+.sidebar .widget p:last-child {
+    margin: 0;
+}
+.menusidebar {
+    list-style: none;
+    padding: 0px;
+    }
+.menusidebar li {
+    border-bottom: #666 1px solid;
+    padding: 5px;
+    }
+.menusidebar li a {
+    display: block;
+    text-decoration: none;
+}
+.menusidebar li a:hover {
+color: navy;
+}
+.blog {
+float: left;
+}
+.conteudo {
+width: 600px;
+padding: 0 25px 25px 25px;
+margin: 25px auto;
+background: #fff;
+border: 1px solid #dedede;
+
+}
+.conteudo img {
+	min-width: 650px;
+	margin:0 0 25px -25px;
+	max-width: 650px;
+}
+.conteudo h1 {
+padding: 0;
+margin: 0 0 15px;
+font-weight: normal;
+color:black;
+font-family: 'Times New Roman', Times, serif;
+}
+.conteudo p:last-child {
+margin: 0;
+}
+.conteudo .continue-lendo {
+color: #000;
+transition: all 0.5s ease;
+text-decoration: none;
+font-weight: 700;
+}
+.conteudo .continue-lendo:hover {
+margin-left: 10px;
+}
+.post-info {
+float: right;
+font-size: 12px;
+margin: -10px 0 15px;
+text-transform: uppercase;
+}
+.footer {
+padding:15px 0 15px 0;
+float: downleft;
+width: 100%;
+background-color: midnightblue;
+}
+.footer a {
+color: ghostwhite;
+}
+@media screen and (max-width:780px)
+{
+    .header, .judul{
+        position: inherit;
+        text-align: center;
+}
+.wrap{
+    width: 90%;
+    margin:25px auto;
+}	
+.sidebar {
+    width:100%;
+    margin:25px 0 0;
+    float:right
+}
+.sidebar .widget {
+    padding:5%;
+}
+nav.menu ul {
+    width: 100%;
+}
+
+nav.menu ul {
+    float:inherit;
+    text-align: center;
+}
+
+nav.menu ul li {
+    float:inherit;
+    margin:0;
+}
+nav.menu ul a {
+    padding:15px;
+    font-size: 16px;
+    border-top:1px solid white;
+    border-bottom:1px solid white;
+}
+
+.blog {
+    width:90%;
+}
+.conteudo {
+    float:inherit;
+    margin:0 auto 25px;
+    width:101%;
+    border:1px solid #dedede;
+    padding:5%;  
+    background: #fff;
+}
+
+.conteudo img {
+    max-width: 110%;
+    margin:0 0 25px -5%;
+    min-width: 110%;
+}
+
+.conteudo .continue-lendo:hover {
+    margin-left:0;
+}
+.footer {
+    position: inherit;
+}
+
+}
